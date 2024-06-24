@@ -1,0 +1,19 @@
+
+
+<web-app>
+  
+  <servlet>
+    <servlet-name>Books API</servlet-name>
+    <servlet-class>controllers.BooksAPIController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Books API</servlet-name>
+    <url-pattern>/books*</url-pattern>
+  </servlet-mapping>
+  
+   <welcome-file-list>
+    <welcome-file>Index.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>
